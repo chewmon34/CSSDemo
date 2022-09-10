@@ -17,7 +17,8 @@
 	text-align: center;
 	vertical-align: top;
         background-color: #f3f2ea;
-	transition: transform .2s; /* Animation */	
+	transition: transform .2s; /* Animation */
+	border-radius: 10px;
 }
 
 .list-item:hover {
@@ -42,7 +43,7 @@
 	margin-right: auto;
 	margin-bottom: 12px;
 	margin-left: auto;
-	padding: 7px;
+	/*padding: 7px;*/
 }
 
 .list-animal-id {
@@ -60,7 +61,7 @@
 	margin-bottom: 3px;
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-top: 0px;
+	margin-top: 3px;
 	background-color: #8ddce9;
 	border-radius:10px;
 	text-align:center;
