@@ -157,6 +157,7 @@
 
 .detail-animal-photo {
 	border-width: 0;
+	border-radius: 10px;
 }
 
 .detail-animal-desc {
