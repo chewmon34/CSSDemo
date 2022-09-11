@@ -19,7 +19,6 @@
         background-color: #f3f2ea;
 	transition: transform .2s; /* Animation */
 	border-radius: 10px;
-	font-size: 70%;
 }
 
 .list-item:hover {
