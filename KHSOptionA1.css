@@ -106,7 +106,7 @@
 }
 
 .detail-table tr:nth-child(odd) {
-   background-color: #ebebeb;
+   background-color: #8ddce9;
 }
 .detail-table td {
     padding: 3px 5px;
@@ -245,7 +245,7 @@ a.button:hover {
 }
 
 .btn-orange, .btn-orange:visited {
-    background: #8ddce9;
+    background: #ed6a00;
     color: black;
     font-weight: normal;
     text-decoration: none;
@@ -261,7 +261,7 @@ a.button:hover {
 .btn-orange:hover {
     transform: scale(1.1);
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background: #8ddce9;
+    background: #ed6a00;
 }
 #AdoptionApplicationButtonRow {
     background: white;
