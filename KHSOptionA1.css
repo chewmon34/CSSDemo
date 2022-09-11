@@ -165,6 +165,13 @@
 	font-size: 14px;
 	line-height: 150%;
 	margin: 10px 0px;
+	padding: 6px;
+	border-style: solid;
+    	border-radius: 10px;
+    	border-width: thin;
+    	border-color: #8ddce9;
+    	background: #f3f2ea;
+    	font-family: cursive;
 }
 
 .detSize 
