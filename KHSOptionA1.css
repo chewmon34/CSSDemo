@@ -19,6 +19,7 @@
         background-color: #f3f2ea;
 	transition: transform .2s; /* Animation */
 	border-radius: 10px;
+	font-size: 70%;
 }
 
 .list-item:hover {
@@ -26,7 +27,7 @@
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.list-animal-photo-block {}
+.l-photo-block {}
 
 .list-animal-photo {
     border-style: none;
@@ -69,7 +70,7 @@
 	text-align:center;
 }
 
-.list-animal-sexSN, .list-animal-breed, .list-animal-age, .list-animal-detail, .list-animal-breed, .list-animal-foundtype
+.list-animal-sexSN, .list-animal-breed, .list-animal-age, .list-animal-detail, .list-animal-breed, .list-animal-foundtype, .list-anima-species
 {
 	margin-top: 3px;
 	margin-bottom: 3px;
