@@ -172,6 +172,10 @@
     	border-color: #8ddce9;
     	background: #f3f2ea;
     	font-family: cursive;
+	padding-left: 6px;
+	padding-right: 6px;
+    	padding-top: 6px;
+    	padding-bottom: 6px;
 }
 
 .detSize 
