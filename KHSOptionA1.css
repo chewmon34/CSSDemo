@@ -245,8 +245,8 @@ a.button:hover {
 }
 
 .btn-orange, .btn-orange:visited {
-    background: #ed6a00;
-    color: white;
+    background: #8ddce9;
+    color: black;
     font-weight: normal;
     text-decoration: none;
     border: none;
@@ -256,10 +256,11 @@ a.button:hover {
     margin-bottom: 10px;
     touch-action: manipulation;
     cursor: pointer;
+    transition: transform .2s; /* Animation */
 }
 .btn-orange:hover {
-    background: #ccc;
-    color: #333;
+    transform: scale(1.1);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #AdoptionApplicationButtonRow {
     background: white;
