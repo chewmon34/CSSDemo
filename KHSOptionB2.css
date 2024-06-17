@@ -22,9 +22,9 @@
 	min-width: 200px;
 }
 
-.petPlaceButton {display:none}
+.petPlaceButton {display:none !important}
 
-.petPlaceButton_secondary {display:none}
+.petPlaceButton_secondary {display:none !important}
 
 @media screen and (max-width: 555px) {
   .list-item {
