@@ -26,7 +26,7 @@
 
 .petPlaceButton_secondary {display:none}
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 555px) {
   .list-item {
 	width: 100%;
   }
