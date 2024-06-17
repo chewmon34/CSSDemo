@@ -19,7 +19,7 @@
         background-color: #f3f2ea;
 	transition: transform .2s; /* Animation */
 	border-radius: 10px;
-	min width: 200px;
+	min-width: 200px;
 }
 
 .petPlaceButton {display:none}
