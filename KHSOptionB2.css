@@ -33,6 +33,9 @@
   .li {
 	width: 100%
   }
+  #tblSearchResults .list-item {
+    width: 100%;
+  }
 }
 
 
