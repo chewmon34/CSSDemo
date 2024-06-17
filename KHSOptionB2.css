@@ -30,8 +30,8 @@
   .list-item {
 	width: 100%;
   }
-  .li {
-	width: 100%
+  #tblSearchResults li {
+	width: 100% !important;
   }
   #tblSearchResults .list-item {
     width: 100% !important;
