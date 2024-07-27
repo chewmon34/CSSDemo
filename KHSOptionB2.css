@@ -7,8 +7,7 @@
  Page: List of Animals
 ************************************************************/
 a {
-	color: black;
-	!important
+	color: black !important
 }
 
 .list-body {
