@@ -6,6 +6,10 @@
 /***********************************************************
  Page: List of Animals
 ************************************************************/
+a {
+	color: black !important
+}
+
 .list-body {
 	background-color: white	
 }
@@ -16,10 +20,28 @@
 	width: auto;
 	text-align: center;
 	vertical-align: top;
-        background-color: #f3f2ea;
+        background-color: #FAF5EF;
 	transition: transform .2s; /* Animation */
 	border-radius: 10px;
+	min-width: 200px;
 }
+
+.petPlaceButton {display:none !important}
+
+.petPlaceButton_secondary {display:none !important}
+
+@media screen and (max-width: 555px) {
+  .list-item {
+	width: 100%;
+  }
+  #tblSearchResults li {
+	width: 100% !important;
+  }
+  #tblSearchResults .list-item {
+    width: 100% !important;
+  }
+}
+
 
 .list-item:hover {
     transform: scale(1.1); 
@@ -31,8 +53,9 @@
 .list-animal-photo {
     border-style: none;
     border-width: 0;
-    height: 100px;
-    border-radius:10px;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 90%;
     margin: auto;
     max-height: 150px;
 }
@@ -50,21 +73,21 @@
 
 .list-animal-id {
 	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
-	font-size: 70%;
+	font-size: 50%;
 	line-height: 125%;
 	color: #666666;
 }
 
 .list-animal-name {
-	font-family: "Ink Free", "Georgia", "Verdana", "Helvetica", "Arial", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	color: #666666;
-	font-size: large;
+	font-size: xx-large;
 	font-weight: bold;
 	margin-bottom: 3px;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-top: 3px;
-	background-color: #8ddce9;
+	background-color: white;
 	border-radius:10px;
 	text-align:center;
 }
@@ -73,8 +96,8 @@
 {
 	margin-top: 3px;
 	margin-bottom: 3px;
-	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
-	font-size: 70%;	
+	font-family: "Open Sans Regular", sans-serif;
+	font-size: large;
 	color: #666666;
 }
 
@@ -97,7 +120,6 @@
 	
 .detail-table {
 	font-family: "Verdana", "Helvetica", "Arial", sans-serif;
-	font-size: 70%;
 	margin-bottom: 6px;
 	margin-left: 3px;
 	margin-right: 0px;
@@ -134,7 +156,6 @@
     border-color: #BBBBBB;
     padding-right: 8px;
     padding-left: 3px;
-    white-space: nowrap;
 }
 
 .detail-value-checkbox 
